@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.iphone {
+  .iphone__body {
+    .text__notes {
+      background-color: #0c25308c;
+      width: 280px;
+      height: 450px;
+      border-radius: 12px;
+      padding: 10px;
+
+      .text__notes-head {
+        margin: 6px 6px;
+        .exit__menu {
+          padding: 6px 13px;
+          border: none;
+          border-radius: 30px;
+          font-size: 22px;
+          background-color: brown;
+          color: white;
+          transition: all 0.2s;
+          &:hover {
+            transform: scale(1.3);
+          }
+        }
+      }
+      .text__notes-body {
+        height: 400px;
+        margin-top: 40px;
+
+        .text__notesbar {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+          margin-bottom: 20px;
+
+          .notes__btn {
+            width: 50px;
+            padding: 12px 15px;
+            background-color: transparent;
+            color: white;
+            border: 2px solid peru;
+            border-radius: 15px;
+            transition: all 0.3;
+            &:hover {
+              background-color: #103342fa;
+              border-color: #103342fa;
+            }
+          }
+        }
+        #note {
+          background-color: transparent;
+          border: 3px solid peru;
+          /* outline: 3px solid peru; */
+          outline: none;
+          color: peru;
+          width: 100%;
+          height: 250px;
+          border-radius: 15px;
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
